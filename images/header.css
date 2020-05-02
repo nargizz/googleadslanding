@@ -1,0 +1,103 @@
+@charset "utf-8";
+/*
+        Михаил Бабидов
+        skype: compo_life
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800&subset=cyrillic');
+
+*       {box-sizing: border-box; margin: 0;}
+*:focus {outline: none;}
+input,a {font-size: 100%; font: inherit; background: none; border: none;}
+img     {max-width: 100%;height: auto;}
+* + li,
+* + p   {margin-top: 15px;}
+.left   {text-align: left;}
+.right  {text-align: right;}
+.center {text-align: center;}
+.just   {text-align: justify;}
+.under  {text-decoration: underline;}
+.tourch {text-decoration: line-through;}
+.upper  {text-transform: uppercase;}
+.fw300  {font-weight: 300;}
+.fw400  {font-weight: 400;}
+.fw600  {font-weight: 600;}
+.fw700  {font-weight: 700;}
+.fw900  {font-weight: 900;}
+.em     {font-style: italic;}
+.top10  {margin-top: 10px;}
+.top15  {margin-top: 15px;}
+.top20  {margin-top: 20px;}
+.top25  {margin-top: 25px;}
+.top30  {margin-top: 30px;}
+.top35  {margin-top: 35px;}
+.top40  {margin-top: 40px;}
+.top45  {margin-top: 45px;}
+.top50  {margin-top: 50px;}
+.top55  {margin-top: 55px;}
+.top60  {margin-top: 60px;}
+.top65  {margin-top: 65px;}
+.top130  {margin-top: 130px;}
+.row.middle [class*="span"],
+.table.middle .cell,
+.middle       {vertical-align: middle;}
+.row.bottom [class*="span"],
+.bottom       {vertical-align: bottom;}
+.big, big     {font-size: 1.3em;}
+.small, small {font-size: 0.85em;}
+
+.table {display: table; width: 100%; width: calc(100% + 15px); margin-left: -7.5px; margin-right: -7.5px;}
+.cell  {display: table-cell; padding-left: 7.5px; padding-right: 7.5px;}
+
+.row                     {text-align: center; list-style: none; padding: 0;}
+.row [class*="span"]     {display: inline-block; min-height: 1px; width: 100%; vertical-align: top;}
+@media screen and (min-width: 720px) {
+	.span2               {max-width: calc(50% - 0.3em);}
+	.span3               {max-width: calc(33.333% - 0.2em);}
+	.span3full           {max-width: calc(66.666% - 0.2em);}
+	.span4               {max-width: calc(25% - 0.2em);}
+	.row [class*="span"] {text-align: center;}
+}
+@media (max-width: 767px) {
+	.table,
+	.cell {
+		display: block !important;
+		width: 100% !important;
+		margin: 15px 0 0 !important;
+	}
+}
+
+.fio {color: #652049;}
+.fs22 {font-size: 22px;}
+.fs24 {font-size: 24px;}
+.fs27 {font-size: 27px;}
+.fs30 {font-size: 30px;}
+.fs38 {font-size: 38px;}
+.fs47 {font-size: 47px;}
+
+body {
+	max-width: 1920px;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+[class^="scr"] {
+	padding: 60px 10px;
+}
+.content {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1120px;
+}
+.scr1 {
+	background: url(../img/scr1.jpg) center top #F3F1F2;
+	background-size: cover;
+	padding: 15px 10px 185px;
+}
+.scr1 .title {
+	font-size: 56px;
+}
+
+@media screen and (max-width: 767px) {
+
+}

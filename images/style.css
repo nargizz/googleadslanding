@@ -1,0 +1,243 @@
+@charset "utf-8";
+.h2 {
+	font-size: 36px;
+	padding-left: 11px;
+	border-left: 7px solid;
+	font-weight: 700;
+}
+.button {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	background: #ff7800;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: 300;
+	border-radius: 5px;
+	border: 11px solid rgba(255,255,255,0.10);
+	border-top-color: rgba(255,255,255,0.20);
+	border-right-color: rgba(0,0,0,0.03);
+	border-bottom-color: rgba(0,0,0,0.03);
+	text-decoration: none;
+	padding: 15px 10px;
+	max-width: 775px;
+}
+.button:hover {
+	background: #ff6100;
+}
+.scr2 {
+	background: #fafaf9;
+}
+.scr2 .text {
+	max-width: 845px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.scr3 .module {
+	margin-top: 40px;
+}
+.scr3 .name {
+	font-weight: 700;
+	height: 80px;
+	background: url(../img/scr3-mod-name.jpg) left top no-repeat #F7F7F7;
+}
+.scr3 .name .num {
+	color: #FFFFFF;
+	padding: 12px 15px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 104px;
+}
+.scr3 .name .title {
+	display: inline-block;
+	width: calc(100% - 104px - 1em);
+	text-align: center;
+	vertical-align: middle;
+}
+.scr3 .text {
+	padding: 15px 15px 30px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.scr3 .quest {
+	background: #FFFFFF;
+	max-width: 279px;
+	margin: -15px auto 0;
+	text-align: center;
+	font-weight: 700;
+	font-style: italic;
+}
+.scr3 .list ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 15px;
+}
+.scr3 .list ul li {
+	position: relative;
+	padding: 15px 15px 15px 55px;
+	margin: 0;
+}
+.scr3 .list ul li:before {
+	content: url(../img/scr3-check.png);
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+.scr3 .list ul li:nth-child(2n) {
+	background: #f7f7f7;
+}
+.scr3 .result {
+	border-top: 1px solid #e4e4e4;
+	padding: 15px;
+	margin-top: 25px;
+}
+.scr3 .text + .result {
+	border-top: 0;
+	margin-top: 0;
+}
+.scr4 {
+	background: url(../img/scr4.jpg) center top #6B1C4C;
+	background-size: cover;
+	color: #FFFFFF;
+}
+.slider-wrap {
+	position: relative;
+	padding: 0 35px;
+}
+.slider-wrap .owl-nav {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	z-index: 5;
+	left: 0;
+	top: 120px;
+}
+.slider-wrap .owl-nav > div {
+	position: absolute;
+	font-size: 0;
+	width: 24px;
+	height: 58px;
+}
+.slider-wrap .owl-nav .owl-prev {
+	background: url(../img/scr4-arrows-left.png);
+	left: -35px;
+}
+.slider-wrap .owl-nav .owl-next {
+	background: url(../img/scr4-arrows-right.png);
+	right: -35px;
+}
+.slider-wrap .owl-nav > div:hover {
+	opacity: 0.8;
+}
+.scr5 {
+	background: url(../img/scr5.jpg) center top #F4F4F4;
+	background-size: cover;
+}
+.scr5 .list {
+	max-width: 935px;
+	margin: 0 auto;
+}
+.scr6 .name {
+	height: 110px;
+	background: url(../img/scr6-name.jpg) left top no-repeat #F7F7F7;
+}
+.scr6 .name .img {
+	display: inline-block;
+	vertical-align: middle;
+	height: 110px;
+	width: 115px;
+	text-align: center;
+	padding: 25px 0;
+}
+.scr6 .title {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+}
+.scr6 .text {
+	font-weight: 700;
+	padding: 25px 15px 15px;
+}
+.scr6 .list ul {
+	list-style: none;
+	padding: 0;
+}
+.scr6 .list ul li {
+	position: relative;
+	padding: 15px 15px 15px 55px;
+	margin: 0;
+}
+.scr6 .list ul li:before {
+	content: url(../img/scr3-check.png);
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+.scr6 .pak1 .list ul li:before {
+	content: url(../img/scr6-check.png);
+}
+.scr6 .list ul li:nth-child(2n) {
+	background: #f7f7f7;
+}
+.scr6 .cena {
+	text-align: center;
+	border-top: 1px solid #c9c9c9;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+.scr6 .button {
+	max-width: 292px;
+	font-size: 24px;
+	padding: 10px 10px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+}
+.yellow {
+	color: #ff6600;
+}
+.gray {
+	color: #b7b7b7;
+}
+.scr7 {
+	background: url(../img/scr7.jpg) center top #fff;
+	background-size: cover;
+	padding-bottom: 115px;
+}
+.scr7 .block {
+	max-width: 983px;
+	margin: 0 auto;
+}
+.scr7 .pl {
+	color: #333333;
+	background: url(../img/scr7-pl.jpg) center center #fff;
+	background-size: cover;
+	padding: 120px 60px 70px;
+}
+.scr7 .pl .button {
+	margin-top: 50px;
+	margin-bottom: -100px;
+}
+.scr-footer {
+	padding: 20px 10px;
+	font-weight: 300;
+}
+.scr-footer a {
+	color: inherit;
+}
+.scr-footer a:hover {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 520px) {
+	.scr3 .name,
+	.scr6 .name {
+		height: auto;
+		text-align: center;
+		background: #581f3f;
+		color: #FFFFFF;
+		padding: 15px;
+	}
+	.scr3 .name div,
+	.scr6 .name div {
+		padding: 0;
+		width: 100% !important;
+	}
+}
